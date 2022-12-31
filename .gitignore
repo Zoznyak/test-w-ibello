@@ -1,0 +1,7 @@
+/target/
+/build/
+/bin/
+/out/
+/ibello/.settings
+/ibello/*.pid
+/ibello/results/
