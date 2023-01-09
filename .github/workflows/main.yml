@@ -28,7 +28,8 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
       - name: Build with Maven
-        run: mvn --batch-mode --update-snapshots package
+        #run: mvn --batch-mode --update-snapshots package
+        run: mvn clean compile
   hello_world_job:
     runs-on: ubuntu-latest
     name: A job to say hello
